@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1209"/>
+      <stop offset="100%" style="stop-color:#0d0800"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#C93A08"/>
+      <stop offset="50%" style="stop-color:#E8420A"/>
+      <stop offset="100%" style="stop-color:#D4A017"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E8420A;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#E8420A;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bbg)"/>
+
+  <!-- Ambient glow left -->
+  <ellipse cx="200" cy="225" rx="160" ry="160" fill="rgba(232,66,10,0.06)"/>
+  <!-- Ambient glow right -->
+  <ellipse cx="600" cy="225" rx="120" ry="120" fill="rgba(212,160,23,0.05)"/>
+
+  <!-- Nav bar -->
+  <rect width="800" height="52" fill="rgba(10,7,4,0.98)"/>
+  <rect width="800" height="1" y="52" fill="rgba(232,66,10,0.25)"/>
+  <!-- Logo text -->
+  <text x="36" y="22" font-family="serif" font-size="11" font-style="italic" fill="rgba(212,160,23,0.9)">BOI NA BRASA</text>
+  <text x="36" y="38" font-family="monospace" font-size="7" letter-spacing="3" fill="rgba(232,66,10,0.7)">BURGUER</text>
+  <!-- Nav links -->
+  <text x="320" y="30" font-family="monospace" font-size="8" fill="rgba(245,237,216,0.5)" letter-spacing="2">MENU</text>
+  <text x="430" y="30" font-family="monospace" font-size="8" fill="rgba(245,237,216,0.5)" letter-spacing="2">SOBRE</text>
+  <text x="540" y="30" font-family="monospace" font-size="8" fill="rgba(245,237,216,0.5)" letter-spacing="2">CONTATO</text>
+  <rect x="650" y="15" width="110" height="24" rx="4" fill="rgba(232,66,10,0.8)"/>
+  <text x="672" y="31" font-family="monospace" font-size="8" fill="#1A1209" font-weight="bold">PEDIR AGORA</text>
+
+  <!-- Hero section left -->
+  <text x="50" y="120" font-family="monospace" font-size="9" letter-spacing="3" fill="rgba(212,160,23,0.7)">— PIRACAIA · SP</text>
+
+  <!-- Big title -->
+  <text x="46" y="165" font-family="serif" font-size="42" font-weight="bold" font-style="italic" fill="#F5EDD8">Boi na</text>
+  <text x="46" y="210" font-family="serif" font-size="42" font-weight="bold" font-style="italic" fill="url(#fire)">Brasa</text>
+
+  <text x="46" y="240" font-family="monospace" font-size="10" letter-spacing="1" fill="rgba(245,237,216,0.5)">O melhor smash burger de Piracaia</text>
+
+  <!-- CTA buttons -->
+  <rect x="46" y="260" width="130" height="36" rx="5" fill="url(#fire)"/>
+  <text x="75" y="283" font-family="monospace" font-size="9" fill="#1A1209" font-weight="bold">VER CARDÁPIO</text>
+  <rect x="192" y="260" width="120" height="36" rx="5" fill="transparent" stroke="rgba(212,160,23,0.5)" stroke-width="1"/>
+  <text x="212" y="283" font-family="monospace" font-size="9" fill="rgba(212,160,23,0.8)">LOCALIZAÇÃO</text>
+
+  <!-- Fire flames decorative -->
+  <path d="M 380 420 Q 360 370 375 340 Q 385 310 370 280 Q 395 310 390 340 Q 398 310 408 290 Q 415 320 405 350 Q 420 320 428 300 Q 432 340 415 370 Q 430 355 435 380 Q 415 410 380 420Z" fill="url(#fire)" opacity="0.6"/>
+  <path d="M 415 430 Q 400 385 412 360 Q 420 335 408 308 Q 428 330 425 358 Q 432 335 440 318 Q 445 348 435 372 Q 448 355 452 375 Q 438 408 415 430Z" fill="url(#fire)" opacity="0.45"/>
+
+  <!-- Menu cards right -->
+  <text x="480" y="90" font-family="monospace" font-size="9" letter-spacing="2" fill="rgba(212,160,23,0.7)">NOSSO CARDÁPIO</text>
+
+  <!-- Burger card 1 -->
+  <rect x="480" y="100" width="145" height="130" rx="10" fill="rgba(44,31,14,0.8)" stroke="rgba(232,66,10,0.2)" stroke-width="1"/>
+  <!-- Burger icon -->
+  <rect x="510" y="115" width="85" height="8" rx="4" fill="rgba(212,160,23,0.7)"/>
+  <rect x="515" y="126" width="75" height="6" rx="3" fill="rgba(139,105,57,0.8)"/>
+  <rect x="510" y="135" width="85" height="5" rx="2" fill="rgba(180,80,30,0.9)"/>
+  <rect x="515" y="143" width="75" height="5" rx="2" fill="rgba(60,100,30,0.7)"/>
+  <rect x="510" y="151" width="85" height="8" rx="4" fill="rgba(212,160,23,0.7)"/>
+  <text x="497" y="178" font-family="serif" font-size="13" font-weight="bold" fill="#F5EDD8">Smash Clássico</text>
+  <text x="497" y="195" font-family="monospace" font-size="9" fill="rgba(212,160,23,0.9)">R$ 32,00</text>
+  <text x="497" y="210" font-family="Arial" font-size="8" fill="rgba(245,237,216,0.4)">Blend 150g · queijo · molho</text>
+  <rect x="551" y="218" width="52" height="4" rx="2" fill="rgba(232,66,10,0.6)"/>
+
+  <!-- Burger card 2 -->
+  <rect x="638" y="100" width="145" height="130" rx="10" fill="rgba(44,31,14,0.8)" stroke="rgba(232,66,10,0.2)" stroke-width="1"/>
+  <rect x="668" y="115" width="85" height="8" rx="4" fill="rgba(212,160,23,0.7)"/>
+  <rect x="673" y="126" width="75" height="6" rx="3" fill="rgba(139,105,57,0.8)"/>
+  <rect x="668" y="135" width="85" height="5" rx="2" fill="rgba(180,80,30,0.9)"/>
+  <rect x="668" y="143" width="85" height="5" rx="2" fill="rgba(180,80,30,0.9)"/>
+  <rect x="673" y="151" width="75" height="5" rx="2" fill="rgba(60,100,30,0.7)"/>
+  <rect x="668" y="159" width="85" height="8" rx="4" fill="rgba(212,160,23,0.7)"/>
+  <text x="655" y="183" font-family="serif" font-size="13" font-weight="bold" fill="#F5EDD8">Double Brasa</text>
+  <text x="655" y="200" font-family="monospace" font-size="9" fill="rgba(212,160,23,0.9)">R$ 48,00</text>
+  <text x="655" y="215" font-family="Arial" font-size="8" fill="rgba(245,237,216,0.4)">2x blend 150g · bacon</text>
+  <rect x="700" y="222" width="52" height="4" rx="2" fill="rgba(232,66,10,0.6)"/>
+
+  <!-- Info cards bottom right -->
+  <rect x="480" y="252" width="140" height="70" rx="8" fill="rgba(232,66,10,0.07)" stroke="rgba(232,66,10,0.15)" stroke-width="1"/>
+  <text x="496" y="272" font-family="monospace" font-size="7" fill="rgba(232,66,10,0.6)" letter-spacing="1">HORÁRIO</text>
+  <text x="496" y="290" font-family="Arial" font-size="11" font-weight="bold" fill="#F5EDD8">Ter–Dom</text>
+  <text x="496" y="308" font-family="monospace" font-size="9" fill="rgba(212,160,23,0.8)">18h – 23h</text>
+
+  <rect x="634" y="252" width="148" height="70" rx="8" fill="rgba(212,160,23,0.06)" stroke="rgba(212,160,23,0.15)" stroke-width="1"/>
+  <text x="650" y="272" font-family="monospace" font-size="7" fill="rgba(212,160,23,0.6)" letter-spacing="1">LOCALIZAÇÃO</text>
+  <text x="650" y="290" font-family="Arial" font-size="11" font-weight="bold" fill="#F5EDD8">Piracaia</text>
+  <text x="650" y="308" font-family="monospace" font-size="9" fill="rgba(245,237,216,0.5)">São Paulo — SP</text>
+
+  <!-- WhatsApp CTA -->
+  <rect x="480" y="338" width="302" height="40" rx="8" fill="rgba(37,211,102,0.12)" stroke="rgba(37,211,102,0.25)" stroke-width="1"/>
+  <text x="536" y="363" font-family="monospace" font-size="10" fill="rgba(37,211,102,0.9)">● Pedir pelo WhatsApp</text>
+
+  <!-- Footer bar -->
+  <rect width="800" height="40" y="410" fill="rgba(10,7,4,0.95)"/>
+  <rect width="800" height="1" y="410" fill="rgba(232,66,10,0.15)"/>
+  <text x="36" y="432" font-family="monospace" font-size="8" fill="rgba(245,237,216,0.25)">boinabrasaburguer.com.br</text>
+  <text x="560" y="432" font-family="monospace" font-size="8" fill="rgba(245,237,216,0.25)">© 2026 Boi na Brasa Burguer · Piracaia SP</text>
+</svg>

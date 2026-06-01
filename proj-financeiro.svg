@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020d1f"/>
+      <stop offset="100%" style="stop-color:#001a0f"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff9f;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00b86e;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:0.4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+
+  <!-- Grid lines subtle -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+  <line x1="0" y1="350" x2="800" y2="350" stroke="rgba(0,212,255,0.05)" stroke-width="1"/>
+
+  <!-- Top nav bar -->
+  <rect width="800" height="44" fill="rgba(0,20,40,0.9)"/>
+  <rect width="800" height="1" y="44" fill="rgba(0,212,255,0.15)"/>
+  <circle cx="24" cy="22" r="8" fill="rgba(0,255,159,0.2)" stroke="rgba(0,255,159,0.4)" stroke-width="1"/>
+  <text x="40" y="27" font-family="monospace" font-size="11" fill="rgba(0,255,159,0.8)">Controle Financeiro</text>
+  <rect x="680" y="12" width="60" height="20" rx="4" fill="rgba(0,255,159,0.1)" stroke="rgba(0,255,159,0.3)" stroke-width="1"/>
+  <text x="695" y="26" font-family="monospace" font-size="9" fill="rgba(0,255,159,0.8)">+ Nova</text>
+
+  <!-- Stat cards row -->
+  <!-- Card Saldo -->
+  <rect x="30" y="62" width="170" height="80" rx="10" fill="rgba(0,212,255,0.06)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <text x="46" y="82" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.5)" letter-spacing="1">SALDO TOTAL</text>
+  <text x="46" y="108" font-family="Arial" font-weight="bold" font-size="20" fill="#00ff9f" filter="url(#glow)">R$ 4.280</text>
+  <text x="46" y="128" font-family="monospace" font-size="8" fill="rgba(0,255,159,0.6)">↑ +12% esse mês</text>
+
+  <!-- Card Receitas -->
+  <rect x="215" y="62" width="170" height="80" rx="10" fill="rgba(0,212,255,0.06)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <text x="231" y="82" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.5)" letter-spacing="1">RECEITAS</text>
+  <text x="231" y="108" font-family="Arial" font-weight="bold" font-size="20" fill="#00d4ff">R$ 7.500</text>
+  <text x="231" y="128" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.6)">↑ +8% esse mês</text>
+
+  <!-- Card Despesas -->
+  <rect x="400" y="62" width="170" height="80" rx="10" fill="rgba(0,212,255,0.06)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <text x="416" y="82" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.5)" letter-spacing="1">DESPESAS</text>
+  <text x="416" y="108" font-family="Arial" font-weight="bold" font-size="20" fill="#ff2d78">R$ 3.220</text>
+  <text x="416" y="128" font-family="monospace" font-size="8" fill="rgba(255,45,120,0.6)">↓ -3% esse mês</text>
+
+  <!-- Card Economias -->
+  <rect x="585" y="62" width="175" height="80" rx="10" fill="rgba(0,212,255,0.06)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <text x="601" y="82" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.5)" letter-spacing="1">ECONOMIAS</text>
+  <text x="601" y="108" font-family="Arial" font-weight="bold" font-size="20" fill="#b700ff">R$ 1.060</text>
+  <text x="601" y="128" font-family="monospace" font-size="8" fill="rgba(183,0,255,0.6)">↑ +22% esse mês</text>
+
+  <!-- Chart area -->
+  <rect x="30" y="162" width="480" height="240" rx="10" fill="rgba(0,212,255,0.04)" stroke="rgba(0,212,255,0.12)" stroke-width="1"/>
+  <text x="46" y="184" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.5)" letter-spacing="1">FLUXO DE CAIXA — 2026</text>
+
+  <!-- Chart grid -->
+  <line x1="60" y1="360" x2="490" y2="360" stroke="rgba(0,212,255,0.1)" stroke-width="1"/>
+  <line x1="60" y1="320" x2="490" y2="320" stroke="rgba(0,212,255,0.07)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="60" y1="280" x2="490" y2="280" stroke="rgba(0,212,255,0.07)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="60" y1="240" x2="490" y2="240" stroke="rgba(0,212,255,0.07)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="60" y1="200" x2="490" y2="200" stroke="rgba(0,212,255,0.07)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Bars Receitas (green) -->
+  <rect x="70"  y="270" width="22" height="90" rx="3" fill="url(#bar1)"/>
+  <rect x="126" y="250" width="22" height="110" rx="3" fill="url(#bar1)"/>
+  <rect x="182" y="230" width="22" height="130" rx="3" fill="url(#bar1)"/>
+  <rect x="238" y="240" width="22" height="120" rx="3" fill="url(#bar1)"/>
+  <rect x="294" y="220" width="22" height="140" rx="3" fill="url(#bar1)"/>
+  <rect x="350" y="200" width="22" height="160" rx="3" fill="url(#bar1)"/>
+  <rect x="406" y="215" width="22" height="145" rx="3" fill="url(#bar1)"/>
+
+  <!-- Bars Despesas (blue) -->
+  <rect x="95"  y="300" width="22" height="60" rx="3" fill="url(#bar2)"/>
+  <rect x="151" y="285" width="22" height="75" rx="3" fill="url(#bar2)"/>
+  <rect x="207" y="295" width="22" height="65" rx="3" fill="url(#bar2)"/>
+  <rect x="263" y="275" width="22" height="85" rx="3" fill="url(#bar2)"/>
+  <rect x="319" y="260" width="22" height="100" rx="3" fill="url(#bar2)"/>
+  <rect x="375" y="270" width="22" height="90" rx="3" fill="url(#bar2)"/>
+  <rect x="431" y="255" width="22" height="105" rx="3" fill="url(#bar2)"/>
+
+  <!-- Month labels -->
+  <text x="74"  y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Jan</text>
+  <text x="130" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Fev</text>
+  <text x="186" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Mar</text>
+  <text x="242" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Abr</text>
+  <text x="298" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Mai</text>
+  <text x="354" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Jun</text>
+  <text x="410" y="375" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">Jul</text>
+
+  <!-- Legend -->
+  <rect x="46" y="390" width="10" height="10" rx="2" fill="rgba(0,255,159,0.7)"/>
+  <text x="60" y="399" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.5)">Receitas</text>
+  <rect x="120" y="390" width="10" height="10" rx="2" fill="rgba(0,212,255,0.7)"/>
+  <text x="134" y="399" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.5)">Despesas</text>
+
+  <!-- Sidebar transactions -->
+  <rect x="530" y="162" width="240" height="240" rx="10" fill="rgba(0,212,255,0.04)" stroke="rgba(0,212,255,0.12)" stroke-width="1"/>
+  <text x="546" y="184" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.5)" letter-spacing="1">ÚLTIMAS TRANSAÇÕES</text>
+
+  <!-- Transaction items -->
+  <rect x="542" y="194" width="212" height="34" rx="6" fill="rgba(0,255,159,0.06)"/>
+  <circle cx="560" cy="211" r="10" fill="rgba(0,255,159,0.15)"/>
+  <text x="556" y="215" font-family="monospace" font-size="10" fill="#00ff9f">$</text>
+  <text x="576" y="207" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.8)">Salário</text>
+  <text x="576" y="220" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">01 Jun 2026</text>
+  <text x="702" y="214" font-family="monospace" font-size="10" fill="#00ff9f">+7.500</text>
+
+  <rect x="542" y="234" width="212" height="34" rx="6" fill="rgba(255,45,120,0.05)"/>
+  <circle cx="560" cy="251" r="10" fill="rgba(255,45,120,0.15)"/>
+  <text x="555" y="255" font-family="monospace" font-size="10" fill="#ff2d78">↓</text>
+  <text x="576" y="247" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.8)">Aluguel</text>
+  <text x="576" y="260" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">05 Jun 2026</text>
+  <text x="700" y="254" font-family="monospace" font-size="10" fill="#ff2d78">-1.800</text>
+
+  <rect x="542" y="274" width="212" height="34" rx="6" fill="rgba(255,45,120,0.05)"/>
+  <circle cx="560" cy="291" r="10" fill="rgba(255,45,120,0.15)"/>
+  <text x="555" y="295" font-family="monospace" font-size="10" fill="#ff2d78">↓</text>
+  <text x="576" y="287" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.8)">Mercado</text>
+  <text x="576" y="300" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">08 Jun 2026</text>
+  <text x="704" y="294" font-family="monospace" font-size="10" fill="#ff2d78">-420</text>
+
+  <rect x="542" y="314" width="212" height="34" rx="6" fill="rgba(0,212,255,0.05)"/>
+  <circle cx="560" cy="331" r="10" fill="rgba(0,212,255,0.15)"/>
+  <text x="555" y="335" font-family="monospace" font-size="10" fill="#00d4ff">F</text>
+  <text x="576" y="327" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.8)">Freelance</text>
+  <text x="576" y="340" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">10 Jun 2026</text>
+  <text x="700" y="334" font-family="monospace" font-size="10" fill="#00d4ff">+1.200</text>
+
+  <rect x="542" y="354" width="212" height="34" rx="6" fill="rgba(183,0,255,0.05)"/>
+  <circle cx="560" cy="371" r="10" fill="rgba(183,0,255,0.15)"/>
+  <text x="555" y="375" font-family="monospace" font-size="10" fill="#b700ff">P</text>
+  <text x="576" y="367" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.8)">Poupança</text>
+  <text x="576" y="380" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">12 Jun 2026</text>
+  <text x="700" y="374" font-family="monospace" font-size="10" fill="#b700ff">+800</text>
+
+  <!-- Bottom glow effect -->
+  <ellipse cx="400" cy="450" rx="300" ry="40" fill="rgba(0,255,159,0.04)"/>
+</svg>

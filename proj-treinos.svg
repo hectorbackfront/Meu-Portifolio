@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0500"/>
+      <stop offset="100%" style="stop-color:#1a0800"/>
+    </linearGradient>
+    <linearGradient id="fill1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b00;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ff6b00;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="fill2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0.2"/>
+    </linearGradient>
+    <filter id="tglow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#tbg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(255,107,0,0.04)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,107,0,0.04)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="450" stroke="rgba(255,107,0,0.04)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="450" stroke="rgba(255,107,0,0.04)" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect width="800" height="50" fill="rgba(20,8,0,0.95)"/>
+  <rect width="800" height="1" y="50" fill="rgba(255,107,0,0.2)"/>
+  <!-- Dumbbell icon simple -->
+  <rect x="20" y="20" width="26" height="8" rx="2" fill="rgba(255,107,0,0.8)"/>
+  <rect x="17" y="16" width="6" height="16" rx="2" fill="rgba(255,107,0,0.9)"/>
+  <rect x="43" y="16" width="6" height="16" rx="2" fill="rgba(255,107,0,0.9)"/>
+  <text x="56" y="31" font-family="monospace" font-size="13" font-weight="bold" fill="rgba(255,107,0,0.9)">Meus Treinos</text>
+  <rect x="660" y="14" width="110" height="22" rx="5" fill="rgba(255,107,0,0.15)" stroke="rgba(255,107,0,0.4)" stroke-width="1"/>
+  <text x="675" y="29" font-family="monospace" font-size="9" fill="rgba(255,107,0,0.9)">+ Salvar Treino</text>
+
+  <!-- Form panel left -->
+  <rect x="20" y="66" width="360" height="290" rx="10" fill="rgba(255,107,0,0.04)" stroke="rgba(255,107,0,0.15)" stroke-width="1"/>
+  <text x="36" y="88" font-family="monospace" font-size="9" fill="rgba(255,107,0,0.6)" letter-spacing="1">REGISTRE O TREINO DO DIA</text>
+
+  <!-- Form fields -->
+  <text x="36" y="110" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)">NOME DO TREINO</text>
+  <rect x="36" y="115" width="328" height="28" rx="5" fill="rgba(255,107,0,0.06)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="50" y="133" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.6)">Peito + Tríceps</text>
+
+  <text x="36" y="158" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)">DURAÇÃO</text>
+  <rect x="36" y="163" width="155" height="28" rx="5" fill="rgba(255,107,0,0.06)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="50" y="181" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.6)">60 min</text>
+
+  <text x="209" y="158" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)">TIPO</text>
+  <rect x="209" y="163" width="155" height="28" rx="5" fill="rgba(255,107,0,0.06)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="223" y="181" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.6)">Força ▾</text>
+
+  <text x="36" y="206" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)">DIVISÃO MUSCULAR</text>
+  <rect x="36" y="211" width="155" height="28" rx="5" fill="rgba(255,107,0,0.06)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="50" y="229" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.6)">Peito/Tríceps ▾</text>
+
+  <text x="209" y="206" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)">OBSERVAÇÕES</text>
+  <rect x="209" y="211" width="155" height="28" rx="5" fill="rgba(255,107,0,0.06)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="223" y="229" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.5)">Foco hipertrofia</text>
+
+  <rect x="36" y="254" width="328" height="34" rx="7" fill="rgba(255,107,0,0.85)"/>
+  <text x="148" y="276" font-family="monospace" font-size="11" fill="#0d0500" font-weight="bold">SALVAR TREINO</text>
+
+  <!-- Export buttons -->
+  <rect x="36" y="302" width="155" height="26" rx="5" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="80" y="319" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.5)">Exportar JSON</text>
+  <rect x="209" y="302" width="155" height="26" rx="5" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="256" y="319" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.5)">Exportar CSV</text>
+
+  <!-- Stats mini -->
+  <rect x="36" y="340" width="95" height="60" rx="8" fill="rgba(255,107,0,0.08)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="52" y="360" font-family="monospace" font-size="8" fill="rgba(255,107,0,0.5)">TOTAL</text>
+  <text x="52" y="382" font-family="Arial" font-size="20" font-weight="bold" fill="#ff6b00" filter="url(#tglow)">24</text>
+  <text x="52" y="394" font-family="monospace" font-size="7" fill="rgba(255,255,255,0.3)">treinos</text>
+
+  <rect x="145" y="340" width="95" height="60" rx="8" fill="rgba(0,212,255,0.06)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <text x="161" y="360" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.5)">SEMANA</text>
+  <text x="161" y="382" font-family="Arial" font-size="20" font-weight="bold" fill="#00d4ff">5</text>
+  <text x="161" y="394" font-family="monospace" font-size="7" fill="rgba(255,255,255,0.3)">sessões</text>
+
+  <rect x="254" y="340" width="110" height="60" rx="8" fill="rgba(0,255,159,0.06)" stroke="rgba(0,255,159,0.15)" stroke-width="1"/>
+  <text x="270" y="360" font-family="monospace" font-size="8" fill="rgba(0,255,159,0.5)">TEMPO TOTAL</text>
+  <text x="270" y="382" font-family="Arial" font-size="20" font-weight="bold" fill="#00ff9f">18h</text>
+  <text x="270" y="394" font-family="monospace" font-size="7" fill="rgba(255,255,255,0.3)">este mês</text>
+
+  <!-- Treinos list right panel -->
+  <rect x="398" y="66" width="380" height="290" rx="10" fill="rgba(255,107,0,0.04)" stroke="rgba(255,107,0,0.15)" stroke-width="1"/>
+  <text x="414" y="88" font-family="monospace" font-size="9" fill="rgba(255,107,0,0.6)" letter-spacing="1">HISTÓRICO DE TREINOS</text>
+
+  <!-- Filter row -->
+  <rect x="414" y="95" width="80" height="20" rx="4" fill="rgba(255,107,0,0.15)" stroke="rgba(255,107,0,0.3)" stroke-width="1"/>
+  <text x="432" y="109" font-family="monospace" font-size="7" fill="rgba(255,107,0,0.9)">Todos ▾</text>
+  <rect x="502" y="95" width="90" height="20" rx="4" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="516" y="109" font-family="monospace" font-size="7" fill="rgba(255,255,255,0.4)">Divisão ▾</text>
+
+  <!-- Treino cards -->
+  <!-- Card 1 -->
+  <rect x="414" y="122" width="348" height="50" rx="7" fill="rgba(255,107,0,0.08)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <rect x="414" y="122" width="4" height="50" rx="2" fill="#ff6b00"/>
+  <text x="428" y="140" font-family="Arial" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.9)">Peito + Tríceps</text>
+  <text x="428" y="157" font-family="monospace" font-size="8" fill="rgba(255,107,0,0.6)">Força · Peito/Tríceps · 60min</text>
+  <text x="700" y="148" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">hoje</text>
+
+  <!-- Card 2 -->
+  <rect x="414" y="180" width="348" height="50" rx="7" fill="rgba(0,212,255,0.05)" stroke="rgba(0,212,255,0.15)" stroke-width="1"/>
+  <rect x="414" y="180" width="4" height="50" rx="2" fill="#00d4ff"/>
+  <text x="428" y="198" font-family="Arial" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.9)">Costas + Bíceps</text>
+  <text x="428" y="215" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.6)">Força · Costas/Bíceps · 55min</text>
+  <text x="688" y="206" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">ontem</text>
+
+  <!-- Card 3 -->
+  <rect x="414" y="238" width="348" height="50" rx="7" fill="rgba(0,255,159,0.05)" stroke="rgba(0,255,159,0.12)" stroke-width="1"/>
+  <rect x="414" y="238" width="4" height="50" rx="2" fill="#00ff9f"/>
+  <text x="428" y="256" font-family="Arial" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.9)">Pernas + Glúteos</text>
+  <text x="428" y="273" font-family="monospace" font-size="8" fill="rgba(0,255,159,0.6)">Resistência · Full Body · 70min</text>
+  <text x="690" y="264" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">2 dias</text>
+
+  <!-- Card 4 -->
+  <rect x="414" y="296" width="348" height="50" rx="7" fill="rgba(183,0,255,0.05)" stroke="rgba(183,0,255,0.12)" stroke-width="1"/>
+  <rect x="414" y="296" width="4" height="50" rx="2" fill="#b700ff"/>
+  <text x="428" y="314" font-family="Arial" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.9)">Cardio + Core</text>
+  <text x="428" y="331" font-family="monospace" font-size="8" fill="rgba(183,0,255,0.6)">Cardio · Core · 45min</text>
+  <text x="690" y="322" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">3 dias</text>
+
+  <!-- Bottom bar with week view -->
+  <rect x="20" y="376" width="760" height="54" rx="10" fill="rgba(255,107,0,0.04)" stroke="rgba(255,107,0,0.1)" stroke-width="1"/>
+  <text x="36" y="394" font-family="monospace" font-size="8" fill="rgba(255,107,0,0.5)" letter-spacing="1">SEMANA ATUAL</text>
+  <!-- Day circles -->
+  <circle cx="80"  cy="415" r="16" fill="rgba(255,107,0,0.8)" filter="url(#tglow)"/>
+  <text x="75"  y="419" font-family="monospace" font-size="8" fill="#0d0500" font-weight="bold">SEG</text>
+  <circle cx="140" cy="415" r="16" fill="rgba(255,107,0,0.8)"/>
+  <text x="135" y="419" font-family="monospace" font-size="8" fill="#0d0500" font-weight="bold">TER</text>
+  <circle cx="200" cy="415" r="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="195" y="419" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">QUA</text>
+  <circle cx="260" cy="415" r="16" fill="rgba(255,107,0,0.8)"/>
+  <text x="255" y="419" font-family="monospace" font-size="8" fill="#0d0500" font-weight="bold">QUI</text>
+  <circle cx="320" cy="415" r="16" fill="rgba(255,107,0,0.8)"/>
+  <text x="315" y="419" font-family="monospace" font-size="8" fill="#0d0500" font-weight="bold">SEX</text>
+  <circle cx="380" cy="415" r="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="375" y="419" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">SÁB</text>
+  <circle cx="440" cy="415" r="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,107,0,0.2)" stroke-width="1"/>
+  <text x="435" y="419" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.3)">DOM</text>
+
+  <!-- Progress bar -->
+  <text x="500" y="400" font-family="monospace" font-size="8" fill="rgba(255,107,0,0.5)">PROGRESSO SEMANAL</text>
+  <rect x="500" y="408" width="260" height="12" rx="6" fill="rgba(255,107,0,0.1)"/>
+  <rect x="500" y="408" width="186" height="12" rx="6" fill="rgba(255,107,0,0.7)"/>
+  <text x="712" y="419" font-family="monospace" font-size="9" fill="rgba(255,107,0,0.8)">5/7</text>
+</svg>
